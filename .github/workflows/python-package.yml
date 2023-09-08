@@ -29,6 +29,5 @@ jobs:
     - name: Install dependencies
       run: poetry install
     - name: Lint with Ruff
-      #uses: chartboost/ruff-action@v1cs
-      run: ruff check .
+      uses: chartboost/ruff-action@v1cs
       
