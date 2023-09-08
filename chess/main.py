@@ -1,4 +1,4 @@
-from colorscheme import ColorScheme, ColorsEnum, ColorsBackground
+from colorscheme import ColorScheme, ColorsBackground
 
 black = ColorScheme(bgr = ColorsBackground.WHITE)
 

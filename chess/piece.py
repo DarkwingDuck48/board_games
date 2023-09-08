@@ -38,7 +38,6 @@ class King(Piece):
     def possible_moves(self, start_position: Coordinate) -> list[Coordinate]:
         valid_file_offset = list(range(-1, 2))
         valid_rank_offset = list(range(-1, 2))
-        moves = []
         for file_move in valid_file_offset:
             for rank_move in valid_rank_offset:
                 print(f"Move: {files[start_position[0] + file_move]}{start_position[1] + rank_move}")

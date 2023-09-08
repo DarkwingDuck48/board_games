@@ -5,17 +5,15 @@
 Первоначальная позиция на доске определяется по нотации FEN, дальше получаем по очереди ходы для белых и черных
 
 """
-import sys
 
 from typing import Optional
 from string import ascii_lowercase
 
-from tile import Tile
-from colorscheme import ColorScheme, ColorsEnum, ColorsBackground
-from piece import Piece, ColorPiece
-from piece import King, Queen, Rook, Bishop, Knight, Pawn, PieceFactory
-from coordinates import Coordinate
-from chess_exceptions import NotValidCoordinateOffset, NotValidPieceName
+from chess.tile import Tile
+from chess.colorscheme import ColorScheme, ColorsEnum, ColorsBackground
+from chess.piece import Piece
+from chess.piece import PieceFactory
+from chess.coordinates import Coordinate
 
 
 class Board:

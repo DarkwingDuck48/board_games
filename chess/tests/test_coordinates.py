@@ -1,5 +1,5 @@
 import unittest
-from chess.chess_exceptions import NotValidCoordinate, NotValidCoordinateOffset
+from chess.chess_exceptions import NotValidCoordinate
 from chess.coordinates import Coordinate
 
 

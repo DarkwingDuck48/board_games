@@ -1,6 +1,6 @@
 from typing import Optional
 
-from colorscheme import ColorsEnum, ColorsBackground, ColorScheme
+from chess.colorscheme import ColorsEnum, ColorsBackground, ColorScheme
 from piece import Piece
 
 
