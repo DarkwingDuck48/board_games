@@ -24,8 +24,8 @@
 
 ## Проекты
 
-| Имя игры | Технологии | Git | Статус |
-| -------- | ---------- | --- | ------ |
-| Шахматы  | Python, Neo4J, FastAPI| [Chess](https://github.com/DarkwingDuck48/chess) ♚ | In progress |
-| Крестики и Нолики | ??? | ❌ | Not Started |
-| Шашки | ??? | ❌ | Not Started |
+| Имя игры | Технологии | Folder | Статус |
+| -------- | ---------- |--------| ------ |
+| Шахматы  | Python, Neo4J, FastAPI| chess  | In progress |
+| Крестики и Нолики | ??? | ❌      | Not Started |
+| Шашки | ??? | ❌      | Not Started |
